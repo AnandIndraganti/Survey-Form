@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+     <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1 id="head">Anime Survey Form</h1>
+      <h2 id="subheading"><i>This a survey about your opinion about anime! Answer to the best of your ability, and most importantly, have fun!</i></h2>
+    </div>
+    <form>
+      <div id="content1">
+            <label>Name</label><br><br>
+            <input type="name" name="name" placeholder="Enter Your Name" class="box"> <br>
+            <label>Email</label><br><br>
+            <input type="email" name="email" placeholder="Enter Your Email" class="box"><br>
+            <label>Age</label><br><br>
+            <input type="age" name="age" placeholder="Enter Your Age" class="box"><br>
+            <label>What is your sex?</label><br><br>
+      
+      <div id="option1">
+          <select>
+            <option name="Select your sex">Select your sex</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+          </select>
+      </div>   
+      <br>
+        <label id="head1">Do you read Manga?</label> <br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely <br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNo <br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspSometimes <br><br>
+        <label id="head2">How do you watch your anime?</label> <br><br>
+        <div id="option2">
+          <select>
+            <option name="Select your option">Select your option</option>
+            <option value="Subbed">Subbed</option>
+            <option value="Dubbed">Dubbed</option>
+            <option value="Both">Both</option>
+          </select>
+        </div>
+        <br>
+        <label id="head2">What is your favorite anime genre?</label><br><br>
+      <div class="content2">
+        <input class="larger" type="checkbox" name="checkbox"><label>&nbsp&nbsp&nbspAction</label> <br><br>
+        <input class="larger" type="checkbox" name="checkbox"><label>&nbsp&nbsp&nbspDrama</label> <br><br>
+        <input  class="larger"type="checkbox" name="checkbox"><label>&nbsp&nbsp&nbspFantasy</label> <br><br>
+        <input class="larger" type="checkbox" name="checkbox"><label>&nbsp&nbsp&nbspHorror</label> <br><br>
+        <input class="larger" type="checkbox" name="checkbox"><label>&nbsp&nbsp&nbspRomance</label> <br><br>
+        <input class="larger"  type="checkbox" name="checkbox"><label>&nbsp&nbsp&nbspSci-fi</label> <br><br>
+        <input class="larger" type="checkbox" name="genre"><label>&nbsp&nbsp&nbspSlice of Life</label> <br><br>
+        <input class="larger" type="checkbox" name="genre"><label>&nbsp&nbsp&nbspSupernatural</label><br><br>
+      <label id="head2">Write us about your Fav Anime!</label> <br><br><br>
+      <textarea placeholder="Enter Your Comment Here."></textarea> <br>
+      <button><h3>Submit</h3></button>
+     </div>
+    </form>
+  </body>
+</html>
